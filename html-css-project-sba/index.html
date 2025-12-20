@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessible Design Co..</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div>
+      <img src=".\images\logo.avif" alt="Company logo." />
+      <p>Accessible Design Co</p>
+      </div>
+      <nav class="nav-menu" role="navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#aboutus">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="art-creation-description">
+          <h1>COMMISSION ARTWORK - CUSTOM PAINTINGS</h1>
+          <p>
+            I do take orders for the custom paintings and my paintings can be
+            created in different sizes or color tones
+          </p>
+          <p>
+            If your decoration area has differnt needs, I welcome you to send me
+            the dimensions you are interested in. I will then provide you with a
+            quote for the painting you have in mind.
+          </p>
+          <a class="hero-link" href="#">Get Quote</a>
+        </div>
+      </section>
+
+      <section class="about-us">
+        <h2>About Us</h2>
+        <p>
+          Accessible Design Co features original, hand painted and digital
+          artworks. The gallery offers high quality, affordable pieces,
+          personally curated for collectors worldwide, and provides expert
+          guidance to help clients choose the ideal artwork for their home,
+          office, or private collection.
+        </p>
+        <a href="#">About our Gallery</a>
+      </section>
+      
+      <section class="services">
+        <h3>Mediums of Artworks offered</h3>
+        <div class="service1">
+          <img
+            src=".\images\portfoliopic1.webp"
+            alt="Original Digital Artwork"
+          />
+          <p class="text-align">
+            Fantasy Digital Art! this piece brings mythical creatures to life.
+          </p>
+        </div>
+        <div class="service2">
+          <img
+            src="./images/portfoliopic2.webp"
+            alt="Original Digital Artwork"
+          />
+          <p class="text-align">
+            Acrylic Art! "Unlock Vibrant Emotion: Original Acrylics": "Bring
+            life to your walls with my new collection of original acrylics.
+          </p>
+        </div>
+        <div class="service3">
+          <img
+            src=".\images\portfoliopic3.webp"
+            alt="Original Digital Artwork"
+          />
+          <p class="text-align">
+            Favorite Artist! Own a piece of cinematic history!
+          </p>
+        </div>
+        <div class="service4">
+          <img
+            src=".\images\portfoliopic4.webp"
+            alt="Original Digital Artwork"
+          />
+          <p class="text-align">
+            Mural Art! "Own a Statement Piece: Custom Murals on Sale!"
+          </p>
+        </div>
+      </section>
+      <section class="contact-details">
+        <h4>What's Next?</h4>
+        <p>Want to decorate your home with beautiful Artworks?</p>
+        <p>Contact Us</p>
+        <form>
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Jonathan Walters"
+            required
+            aria-invalid="false"
+            tabindex="1"
+          />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            required
+            placeholder="Jonwalters@gmail.com"
+            tabindex="2"
+          />
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" required tabindex="3" />
+          <label for="message">Message</label>
+          <input type="textarea" id="message" required tabindex="4" />
+          <button
+            role="button"
+            type="button"
+            aria-label="Click to submit the form"
+          >
+            Submit
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="copyright-icons">
+      <p>&copy; 2025 Accessible Design Co..</p>
+      <ul>
+        <li>
+          <a href="#facebook"
+            ><img src=".\images\facebook.png" alt="facebook logo"
+          /></a>
+        </li>
+        <li>
+          <a href="#instagram"
+            ><img src=".\images\instagram.jpg" alt="instagram logo"
+          /></a>
+        </li>
+        <li>
+          <a href="#twitter"
+            ><img src=".\images\twitter.png" alt="twitter logo"
+          /></a>
+        </li>
+        <li>
+          <a href="#linkedin"
+            ><img src=".\images\linkedin.png" alt="linkedin logo"
+          /></a>
+        </li>
+      </ul>
+      <div>
+        <h5>Contact Us</h5>
+        <p>rubiartwork@gmail.com</p>
+        <p>(201)-421-6972</p>
+      </div>
+    </footer>
+  </body>
+</html>
