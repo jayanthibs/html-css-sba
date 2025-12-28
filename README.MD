@@ -13,9 +13,10 @@ Goal: Create a Responsive and Accessible Web Page
 Project Description:
 
 This Project contains six sections as follows:
+
 Header Section — A company logo and a responsive navigation bar with links to “Home,” “About Us,” “Services,” and “Contact.”
 Hero Section — welcoming section with a background image, heading, and button.
-About Us Section — A brief description of the company
+About Us Section — A brief description of the company.
 Services Section — Different services offerd by the company.
 Contact Form — Users can get a quotation for the art they want.
 Footer Section — Copyright information, social media links, and contact details.
